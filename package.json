@@ -4,6 +4,7 @@
 	"description": "HackPrinceton",
 	"main": "app.js",
 	"scripts": {
+		"start": "npm --prefix client start",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
