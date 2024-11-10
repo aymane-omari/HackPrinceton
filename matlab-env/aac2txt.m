@@ -4,13 +4,10 @@ function recognizedText = transcribe(filePath)
     % filePath = 'input.wav'; % Ensure this file is in the same directory or provide the full path
     
     % Step 2: Load the .wav audio file
-    try
-        [audioData, fs] = audioread(filePath);
-        disp('Audio file loaded successfully.');
-    catch ME
-        error('Error loading audio file: %s', ME.message);
-    end
-    
+
+    [audioData, fs] = audioread(filePath);
+    disp('Audio file loaded successfully.');
+
     % Display basic information about the audio file
     disp(['Sampling Rate: ', num2str(fs), ' Hz']);
     disp(['Audio Duration: ', num2str(length(audioData) / fs), ' seconds']);
@@ -30,18 +27,11 @@ function recognizedText = transcribe(filePath)
     audioTable = table({audioData}, fs, 'VariableNames', {'Audio', 'SampleRate'});
     
     % Step 6: Initialize the Wav2Vec speech client
-    try
-        client = speechClient("wav2vec2.0");
-        disp('Wav2Vec model loaded successfully!');
-    catch ME
-        error('Error initializing Wav2Vec model: %s', ME.message);
-    end
+
+    client = speechClient("wav2vec2.0");
+    disp('Wav2Vec model loaded successfully!');
     
     % Step 7: Convert speech to text using the Wav2Vec model
-    try
-        recognizedText = speech2text(audioData,fs)
-        disp(['Recognized Speech: ', recognizedText]);
-    catch ME
-        error('Error during speech recognition: %s', ME.message);
-    end
+    recognizedText = speech2text(audioData,fs)
+    disp(['Recognized Speech: ', recognizedText]);
 end
