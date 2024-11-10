@@ -1,9 +1,0 @@
-pyproject.toml
-setup.py
-example/__init__.py
-example.aac2txt_R2024b.egg-info/PKG-INFO
-example.aac2txt_R2024b.egg-info/SOURCES.txt
-example.aac2txt_R2024b.egg-info/dependency_links.txt
-example.aac2txt_R2024b.egg-info/top_level.txt
-example/aac2txt/__init__.py
-example/aac2txt/aac2txt.ctf
