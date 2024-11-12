@@ -1,6 +1,7 @@
 import { chatResponseSchema } from "./types";
 
-const GROQ_API_KEY = "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"; 
+// Configure your API key in env variables
+const GROQ_API_KEY = "<YOUR_API_KEY>"; 
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 const systemPrompt = `You are an eco-friendly AI companion helping users develop sustainable habits. 
