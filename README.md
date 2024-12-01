@@ -26,7 +26,7 @@ Data integration posed another hurdle. Navigating the different APIs of health a
 Time constraints inherent in hackathon projects also tested our team's ability to prioritize features and work efficiently. Balancing ambition with practicality, we focused on delivering a functional and impactful application within the given timeframe.
 
 ## Accomplishments That We're Proud Of
-We take pride in the effective integration of AI, creating a chatbot that delivers personalized, actionable sustainability advice in real-time. Overcoming the technical challenge of processing WAD files using MATLAB was a significant achievement, enabling us to enhance personalization through detailed activity data.
+We take pride in the effective integration of AI, creating a chatbot that delivers personalized, actionable sustainability advice in real-time. Overcoming the technical challenge of processing WAD files using MATLAB was a significant achievement, enabling us to enhanced personalization through detailed activity data.
 Implementing user engagement features like the streak system and action tracking helped motivate users and encourage long-term commitment to sustainable practices. We are also proud of our commitment to ethical data handling, developing secure data integration methods that respect user privacy and comply with ethical standards.
 Most importantly, our team's collaboration was exemplary. By leveraging each member's strengths, we brought SustainAI to life within the hackathon timeframe, demonstrating what can be achieved through dedicated teamwork.
 
